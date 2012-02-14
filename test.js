@@ -1,4 +1,11 @@
-	function SetValues(){
-	var s = 'X=' + window.event.clientX + ' Y=' + window.event.clientY;
-	document.getElementById('divCoord').innerText = s;
-	}
+function getX()
+{
+	var mouseX = window.event.clientX
+	return mouseX
+}
+
+function getY()
+{
+	var mouseY = window.event.clientX
+	return mouseY
+}
